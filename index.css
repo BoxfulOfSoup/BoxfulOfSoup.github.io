@@ -1,7 +1,7 @@
 body{
   margin: 0px;
-  height: 10in;
   font-family: monospace;
+  background-color: #eeeeee;
 }
 .heading{
   background-color: #f6ad4b;
@@ -40,7 +40,6 @@ body{
   background-color: #e17126;
 }
 .central_body{
-  background-color: #eeeeee;
   width: 100%;
   height: 100%;
   display: flex;
@@ -56,5 +55,14 @@ body{
   margin: 0.2in;
   transition: background-color 0.2s;
   font-size: 200%;
-  padding: 2ch
+  padding: 2ch;
+}
+.small_text{
+  text-align: center;
+}
+*:link{
+  color : #fa4baf;
+}
+*:visited{
+  color : #fa4baf;
 }
